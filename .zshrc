@@ -24,3 +24,7 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 export PGDATA=/usr/local/var/postgres
+
+autoload -Uz compinit
+compinit
+zstyle ':completion:*' menu select
