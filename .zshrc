@@ -28,3 +28,6 @@ export PGDATA=/usr/local/var/postgres
 autoload -Uz compinit
 compinit
 zstyle ':completion:*' menu select
+
+alias la='ls -la'
+alias ll='ls -la'
